@@ -1,0 +1,26 @@
+:root {
+    --c-accent: #FF530D;
+    --c-accent-alt: #FF9132;
+    --c-light: #EFEFEF;
+    --c-light-gray: #DDD;
+    --c-light-blue: #BDD4DE;
+    --c-med-blue: #3F5765;
+    --c-dark-blue: #2B3A42;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--c-accent-alt);
+    color: var(--c-light);
+}
+
+.net-d {
+    font-size: 2em;
+    margin: 0 0.2em;
+}
+
+#today, #net15, #net30 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-left: 0.2em;
+}
